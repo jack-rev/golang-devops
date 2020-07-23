@@ -1,9 +1,8 @@
 package main
 import (
-    "headers"
+    "content"
 )
 
 func main(){
-    headers.Auth()
-    headers.SimpleAuth()
+    content.ProcessContent()
 }
